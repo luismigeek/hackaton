@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Ruleta - Hackathon</title>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootswatch.min.css">
+</head>
+
+<body>
+
+    <div style="display:none;">
+        <img id="source" src="images/parts/centro.png">
+    </div>
+
+    <div align="center">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td width="421" height="564" class="the_wheel" align="center" valign="center">
+                    <canvas id="canvas" class=" clickable" width="500" height="500" onClick="startSpin();">
+                        <p style="color: white" align="center">Sorry, your browser doesn't support canvas. Please try
+                            another.</p>
+                    </canvas>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light static-top">
+        <div class="container" id="logos">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/brands/hackathon.png" alt="" width="150" height="auto">
+            </a>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/brands/oficinatic.png" alt="" width="150" height="auto">
+            </a>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/brands/monteriadelante.png" alt="" width="150" height="auto" onclick="restart()">
+            </a>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/brands/escuelas.png" alt="" width="150" height="auto">
+            </a>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/brands/creativosdigitales.png" alt="" width="150" height="auto">
+            </a>
+        </div>
+    </nav>
+
+    <script type="text/javascript" src="js/Winwheel.js"></script>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+    <script type="text/javascript" src="js/sweetalert2@8.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

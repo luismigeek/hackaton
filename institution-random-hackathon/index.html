@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>INSTITUTION RANDOM HACKATHON</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <audio id="myAudio">
+    <source src="data/roulete.mp3" type="audio/mpeg">
+  </audio>
+
+  <section id="preload" class=" ">
+    <div id="loading" class=" "></div>
+  </section>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light static-top">
+    <div class="container" id="logos">
+
+      <a class="navbar-brand" href="#">
+        <img src="images/hackathon.png" alt="" width="150" height="auto">
+      </a>
+
+      <a class="navbar-brand" href="#">
+        <img src="images/oficinatic.png" alt="" width="150" height="auto">
+      </a>
+
+      <a class="navbar-brand" href="#">
+        <img src="images/monteriadelante.png" alt="" width="150" height="auto" onclick="restart()">
+      </a>
+
+      <a class="navbar-brand" href="#">
+        <img src="images/escuelas.png" alt="" width="150" height="auto">
+      </a>
+
+      <a class="navbar-brand" href="#">
+        <img src="images/creativosdigitales.png" alt="" width="150" height="auto">
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!--div class="flex-center flex-column"-->
+    <div class="row mt-4">
+      <div class="col-lg-6 col-md-6 col-sm-6 text-right mb-3"><button id="generar"
+          class="btn btn-success">Iniciar</button></div>
+      <div class="col-lg-6 col-md-6 col-sm-6 text-left mb-3"><button id="reiniciar"
+          class="btn btn-info">Reiniciar</button>
+      </div>
+    </div>
+
+    <!-- Start your project here -->
+    <div style="height: 100vh">
+
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="row mt-2">
+
+            <div class="col-lg-2 col-md-2 col-sm-2 my-auto">
+              <img src="img/svg/school.svg" class="mw-100 mh-100" alt="Imagen school">
+            </div>
+
+            <div class="col-lg-10 my-auto text-center">
+              <h4 id="institution"> xx - xx </h4>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+        </div>
+
+      </div>
+    </div>
+    <!-- Start your project here-->
+
+  </div>
+  <!-- /.container -->
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2019 Copyright: Oficina TIC</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- SCRIPTS -->
+
+  <script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+      x.play();
+    }
+
+    function pauseAudio() {
+      x.pause();
+    } 
+  </script>
+
+
+  <script type="text/javascript" src="js/list.json.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+</body>
+
+</html>

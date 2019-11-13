@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "Heavitas";
+	src: url("fonts/Heavitas.ttf");
+}
+@font-face {
+	font-family: "The Next Font";
+	src: url("fonts/TheNextFont.ttf");
+}
+
+*{
+	font-family: "Heavitas"; 
+}
+
+body{
+	background-image: url("milky.jpg");
+	background-size: cover;
+}
+
+.box-centered{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+
+.button:hover {
+	background-color: #3e8e41
+}
+
+.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+
+.button-grey {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #5f6769;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button-grey:hover {background-color: #3c4245}
+  
+  .button-grey:active {
+	background-color: #3c4245;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+  
+
+.box {
+	display: flex;
+}
+
+.left {
+	margin-left: auto;
+}
+
+.botones {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#magicalnumber {
+	width: 300px;
+	height: 300px;
+	background: #00B2EB;;
+	color: #333;
+	font-size: 150px;
+}
+
+input{
+	width: 25%;
+	font-size: 40px !important; 
+	padding: 0px !important;
+}
